@@ -33,7 +33,7 @@ def init_db():
     
 #define a route for route URL '/' and use GET and POST methods
 @app.route('/', methods=['GET','POST'])
-def index();
+def index():
     
      #if the request is equal to POST (form was submitted)
      if request.method == 'POST':
